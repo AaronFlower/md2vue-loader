@@ -4,7 +4,13 @@ A loader to parse markdown file to a vue template file. The loader will parse th
 
 ## Usage
 
-Config the webpack config file.
+- Install md2vue-loaer
+
+```
+npm install --save-dev md2vue-loader 
+```
+
+- Config the webpack config file to parse markdown file.
 
 ```jsx
 module: {
@@ -16,11 +22,26 @@ module: {
 ```
 ## API
 
-- Loader options
+### Loader options
+
+- template: the template file to generator.
+
+Example:
 
 ```javascript
-{
-  template: 'path/to/vue-template-file.vue'
+module: {
+  rules: [
+    test: /\.md$/,
+    loader: [
+    	'vue-loader', 
+    	{
+          loader: 'md2vue-loader',
+    	  options: {
+            template: 'path/to/template-file'
+    	  }
+    	}
+  	]
+  ]
 }
 ```
 
@@ -121,8 +142,6 @@ export default {
 }
 </style>
 ```
-
-
 
 ## Todos
 
