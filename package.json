@@ -1,0 +1,41 @@
+{
+  "name": "md2vue-loader",
+  "version": "1.0.0",
+  "description": "a loader to parse markdown file to a vue template file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd example && webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronFlower/md2vue-loader.git"
+  },
+  "keywords": [
+    "vue",
+    "markdown",
+    "template",
+    "parse"
+  ],
+  "author": "AaronFlower",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronFlower/md2vue-loader/issues"
+  },
+  "homepage": "https://github.com/AaronFlower/md2vue-loader#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^2.29.0",
+    "vue": "^2.4.1",
+    "vue-loader": "^12.2.2",
+    "vue-template-compiler": "^2.4.1",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "marked": "^0.3.6",
+    "mustache": "^2.3.0",
+    "prismjs": "^1.6.0"
+  }
+}
