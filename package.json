@@ -1,7 +1,7 @@
 {
   "name": "md2vue-loader",
   "version": "1.0.0",
-  "description": "a loader to parse markdown file to a vue template file",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
