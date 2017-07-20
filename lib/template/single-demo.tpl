@@ -1,10 +1,10 @@
 <template>
 	<div class="t-component-demo">
-		<div class="demo-box">
-			{{{template}}}
-		</div>
 		<div class="md-box">
 			{{{md}}}
+		</div>
+		<div class="demo-box">
+			{{{template}}}
 		</div>
 		<div class="code-box">
 			<pre>
@@ -20,6 +20,6 @@
 	{{{script}}}
 </script>
 
-<style scoped>
+<style>
 	{{{style}}}
 </style>
