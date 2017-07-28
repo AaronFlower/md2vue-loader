@@ -7,11 +7,7 @@
 			{{{template}}}
 		</div>
 		<div class="code-box">
-			<pre>
-				<code>
-					{{{code}}}
-				</code>
-			</pre>
+			<pre><code v-pre>{{{code}}}</code></pre>
 		</div>
 	</div>
 </template>
