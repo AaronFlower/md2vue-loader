@@ -6,6 +6,7 @@ Use the button component
 ```html
 <h2>This is the Vue Component!</h2>
 <t-button></t-button>
+<t-button class="scoped-button"></t-button>
 <p>{{msg}}</p>
 ```
 
@@ -27,5 +28,11 @@ export default {
 ```css
 button {
     color: red;
+}
+```
+
+```css@scoped
+.scoped-button {    
+    background: rebeccapurple;
 }
 ```

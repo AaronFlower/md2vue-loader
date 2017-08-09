@@ -19,3 +19,7 @@
 <style>
 	{{{style}}}
 </style>
+
+<style scoped>
+	{{{scopedStyle}}}
+</style>
