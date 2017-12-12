@@ -37,7 +37,8 @@ module: {
     	{
           loader: 'md2vue-loader',
     	  options: {
-            template: 'path/to/template-file'
+            template: 'path/to/template-file',
+            headingId: false // heading render id. [https://github.com/chjj/marked/issues/806]
     	  }
     	}
   	]
@@ -147,4 +148,5 @@ export default {
 
 - [ ] Multiple Markdown files to loader.
 - [ ] Code highlight configurable.
+- [ ] id add prefixer
 
