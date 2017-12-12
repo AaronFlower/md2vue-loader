@@ -2,6 +2,8 @@
 
 A loader to parse markdown file to a vue template file. The loader will parse the marked file to a template for  [vue-loader](https://vue-loader.vuejs.org/) to parse.
 
+You can also to use `options.directOutput` to output direct Vue file without template.
+
 ## Usage
 
 - Install md2vue-loaer
@@ -38,7 +40,8 @@ module: {
           loader: 'md2vue-loader',
     	  options: {
             template: 'path/to/template-file',
-            headingId: false // heading render id. [https://github.com/chjj/marked/issues/806]
+            headingId: false, // heading render id. [https://github.com/chjj/marked/issues/806]
+            directOutput: false
     	  }
     	}
   	]

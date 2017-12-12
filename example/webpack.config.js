@@ -29,7 +29,15 @@ module.exports = {
 		rules: [
 			{
 				test: /\.md$/,
-				loader: ['vue-loader', 'md2vue-loader']
+				loader: [
+					'vue-loader', 
+					{
+						loader: 'md2vue-loader',
+						// options: {
+						// 	directOutput: true
+						// }
+					}
+				]
 			},
 			{
 				test: /\.vue$/,
